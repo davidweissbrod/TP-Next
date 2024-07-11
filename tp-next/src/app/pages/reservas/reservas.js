@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Formulario from '../../components/Form';
 import Listado from '../../components/Listado';
 
-export default function Home() {
+export default function Reservas() {
   const [registros, setRegistros] = useState([]);
 
   const añadirRegistro = (registro) => {
