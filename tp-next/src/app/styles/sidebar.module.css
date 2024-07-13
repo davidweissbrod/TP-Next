@@ -1,13 +1,11 @@
 .sidebar {
-    width: 200px;
+    width: 250px;
     height: 100vh;
-    position: fixed;
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-}
-
-.sidebar h2 {
-    text-align: center;
 }
 
 .sidebar ul {
@@ -15,11 +13,16 @@
     padding: 0;
 }
 
-.sidebar ul li {
-    margin: 20px 0;
+.sidebar li {
+    margin-bottom: 20px;
 }
 
-.sidebar ul li a {
+.sidebar a {
+    color: white;
     text-decoration: none;
-    color: #333;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
 }

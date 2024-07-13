@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Formulario from '../../components/Form';
 import Listado from '../../components/Listado';
 
-export default function Reservas() {
+const Reservas = () => {
   const [registros, setRegistros] = useState([]);
 
   const añadirRegistro = (registro) => {
@@ -34,3 +34,5 @@ export default function Reservas() {
   </div>
   );
 }
+
+export default Reservas;
