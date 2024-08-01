@@ -1,8 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Formulario from '../../components/Form';
-import Listado from '../../components/Listado';
+import Formulario from '../components/Form';
+import Listado from '../components/Listado';
 
 const Reservas = () => {
   const [registros, setRegistros] = useState([]);
